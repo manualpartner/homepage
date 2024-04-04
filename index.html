@@ -85,7 +85,7 @@
     </section>
     <section id="how-it-works" class="container my-5">
       <h2 class="text-center mb-5"><i class="fas fa-robot"></i> Wie es funktioniert</h2>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -93,22 +93,22 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="step1.png" class="d-block w-100" alt="Schritt 1: Geben Sie Ihre Anforderungen ein">
-            <div class="carousel-caption d-none d-md-block">
+            <img src="/img/slider1.jpg" class="d-block w-100" alt="Schritt 1: Geben Sie Ihre Anforderungen ein" style="height: 600px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block text-dark">
               <h5>Schritt 1: Geben Sie Ihre Anforderungen ein</h5>
               <p>Geben Sie Details zu Ihrem Produkt, Ihrer Zielgruppe und dem gewünschten Ton und Stil an.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="step2.png" class="d-block w-100" alt="Schritt 2: KI-gestütztes Schreiben">
-            <div class="carousel-caption d-none d-md-block">
+            <img src="/img/slider2.jpg" class="d-block w-100" alt="Schritt 2: KI-gestütztes Schreiben" style="height: 600px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block text-white">
               <h5>Schritt 2: KI-gestütztes Schreiben</h5>
               <p>Unser KI-Assistent erstellt einen Entwurf für das Handbuch basierend auf Ihren Eingaben.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="step3.png" class="d-block w-100" alt="Schritt 3: Überprüfen und Verfeinern">
-            <div class="carousel-caption d-none d-md-block">
+            <img src="/img/slider3.png" class="d-block w-100" alt="Schritt 3: Überprüfen und Verfeinern" style="height: 600px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block text-dark">
               <h5>Schritt 3: Überprüfen und Verfeinern</h5>
               <p>Überprüfen Sie den Entwurf und nehmen Sie mit unseren kollaborativen Bearbeitungstools alle erforderlichen Änderungen vor.</p>
             </div>
@@ -208,18 +208,18 @@
         <h2 class="text-center mb-5"><i class="fas fa-envelope"></i> Kontaktieren Sie uns</h2>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <form>
+            <form action="mailto:info@manualpartner.de" method="get" enctype="text/plain">
               <div class="form-group">
                 <label for="name"><i class="fas fa-user"></i> Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Geben Sie Ihren Namen ein">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Geben Sie Ihren Namen ein" required>
               </div>
               <div class="form-group">
                 <label for="email"><i class="fas fa-at"></i> E-Mail</label>
-                <input type="email" class="form-control" id="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein" required>
               </div>
               <div class="form-group">
                 <label for="message"><i class="fas fa-comment"></i> Nachricht</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Geben Sie Ihre Nachricht ein"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Geben Sie Ihre Nachricht ein" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Abschicken</button>
             </form>
