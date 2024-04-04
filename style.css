@@ -1,0 +1,69 @@
+/* Allgemeine Stile */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Sektionen */
+#hero {
+  background-color: #007bff;
+}
+
+#features {
+  background-color: #f8f9fa;
+}
+
+#how-it-works {
+  background-color: #ffffff;
+}
+
+#ai-capabilities {
+  background-color: #f8f9fa;
+}
+
+#pricing {
+  background-color: #ffffff;
+}
+
+#contact {
+  background-color: #f8f9fa;
+}
+
+/* Anpassungen für die Farbkontraste */
+#hero h1,
+#hero p {
+  color: #ffffff;
+}
+
+#features h2,
+#how-it-works h2,
+#ai-capabilities h2,
+#pricing h2,
+#contact h2 {
+  color: #343a40;
+}
+
+#features .card,
+#ai-capabilities .card,
+#pricing .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#features .card-title,
+#ai-capabilities .card-title,
+#pricing .card-title {
+  color: #007bff;
+}
+
+#contact form label {
+  color: #343a40;
+}
+
+/* Anpassungen für die Fußzeile */
+footer {
+  background-color: #343a40;
+}
+
+footer p {
+  color: #ffffff;
+}
